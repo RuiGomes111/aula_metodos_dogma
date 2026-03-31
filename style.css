@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 10px
+}
+
+
+form input{
+    padding: 7px;
+}
+
+form button{
+    padding: 7px;
+    background-color: rgba(0, 0, 255, 0.651);
+}
