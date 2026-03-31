@@ -12,11 +12,10 @@ const entrada2= document.getElementById("entrada2");
 const mensagem= document.getElementById("sms");
 const mostrar= document.getElementById("show");
 entrada1.addEventListener("input", (e)=>{
-    dig= e.target.value;
-    mostrar.addEventListener("click", ()=>{
+    dig= e.target.value;  
 
         mensagem.textContent=dig;
-    })
+    
 })
 
 
